@@ -4,12 +4,8 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-body { background-color: black;}
-.im1 {
-   position: fixed;
-   margin-left: 100px;
-   opacity: 0.5;
-}
+
+.im1 {position: fixed;}
 .container {
   position: relative;
   background-color: #FFFFFF;
@@ -33,10 +29,14 @@ body { background-color: black;}
 .search_chat input{
     margin-top: 20px;
     width: 244px;
-    padding: 13px;
+    padding: 14px ;
+    padding-left: 20px;
     background-color: #EBEFF2;
+    color: #B5B5B5;
+    font-weight: 600;
     border: none;
     border-radius: 25px;
+    outline: none;
 }
 .fa-pen-to-square {
     margin-left: 10px;
@@ -45,6 +45,7 @@ body { background-color: black;}
     padding: 14px;
     border-radius: 50%;
 }
+
 /*ChatList*/
 
 .chatlist {
@@ -54,7 +55,7 @@ body { background-color: black;}
 .chatlist_two {background-color: #00AFFE;}
 .block_one {
     width: 100%;
-    height: 65px;
+    height: 60px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -62,14 +63,14 @@ body { background-color: black;}
 .block_two {
     margin-left: 25px;
     margin-right: 29px;
-    height: 65px;
+    height: 60px;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 .block {
     width: 100%;
-    height: 65px;
+    height: 60px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -78,23 +79,20 @@ body { background-color: black;}
 .active h4 {color: #FFFFFF;}
 .active p {color: #FFFFFF;}
 .imgbx {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    overflow: hidden;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 9px;
 }
 .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
     object-fit: cover;
+    border-radius: 50%;
 }
 .datalist {
   width: 100%;
   margin-left: 15px;
+  
 }
 .listhead {
  display: flex;
@@ -123,6 +121,9 @@ h4 {
   height: 60px;
   border-bottom: 2px solid #ECECEC;
   background-color: #EBEFF2;
+ }
+ .imgbx_two {
+    margin-top: 3px;
  }
  .img_Text {
     position: relative;
@@ -204,10 +205,20 @@ h4 {
     border: 1px solid #EBEFF2;
     background-color: #EBEFF2;
     color: #B5B5B5;
-    padding: 10px;
+    padding: px;
     width: 91%;
-    margin-left: 20px;
+    margin-left: 21px;
     border-radius: 5px;
     margin-top: 5px;
  }
-.fa-paperclip {margin-right: 360px;}
+.fa-paperclip {
+   margin-left: 10px;
+}
+.i_p {
+    width: 350px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: #EBEFF2;
+    border: none;
+    outline: none;
+}
